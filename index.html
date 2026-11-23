@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumea Beauty | Natural Skincare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <a href="#home" class="logo">LUMEA</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#newsletter">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="btn" id="cartBtn">
+            Bag (<span id="cartCount">0</span>)
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <span class="badge">100% Organic Botanicals</span>
+          <h1>
+            Natural Beauty <br />
+            Starts With Care
+          </h1>
+
+          <p>
+            Premium skincare made with gentle, natural ingredients to keep your
+            skin glowing, balanced, and healthy every day.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#products" class="btn">Explore Products</a>
+            <a href="#features" class="btn-outline">Learn More</a>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img
+            src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=800&auto=format&fit=crop&q=80"
+            alt="Lumea Beauty Skincare Bottles"
+          />
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="feature-card">
+          <div class="feature-icon">🌿</div>
+          <h3>Natural Ingredients</h3>
+          <p>Formulated from safe, plant-based, and organic extracts.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">✨</div>
+          <h3>Dermatologist Tested</h3>
+          <p>Clinically tested and gentle enough for all skin types.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💧</div>
+          <h3>Deep Hydration</h3>
+          <p>Locks in moisture to keep your skin soft all day long.</p>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <span class="section-tag">Best Sellers</span>
+        <h2>Our Products</h2>
+
+        <div class="product-grid">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1669735916387-24340468a65c?w=700&auto=format&fit=crop&q=60"
+                alt="Hydrating Serum"
+              />
+            </div>
+            <div class="product-info">
+              <h4>Hydrating Serum</h4>
+              <p class="price">$18.00</p>
+              <button class="btn btn-sm add-cart" data-product="Hydrating Serum">
+                + Add to Bag
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1745141063798-7fa04698ea80?w=700&auto=format&fit=crop&q=60"
+                alt="Facial Cleanser"
+              />
+            </div>
+            <div class="product-info">
+              <h4>Facial Cleanser</h4>
+              <p class="price">$15.00</p>
+              <button class="btn btn-sm add-cart" data-product="Facial Cleanser">
+                + Add to Bag
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1661693591879-fbdd89fad6cd?w=700&auto=format&fit=crop&q=60"
+                alt="Brightening Cream"
+              />
+            </div>
+            <div class="product-info">
+              <h4>Brightening Cream</h4>
+              <p class="price">$20.00</p>
+              <button
+                class="btn btn-sm add-cart"
+                data-product="Brightening Cream"
+              >
+                + Add to Bag
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <span class="section-tag">@lumeabeauty</span>
+        <h2>Our Skincare Collection</h2>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=700&auto=format&fit=crop&q=80"
+              alt="Skincare Bottle Aesthetic"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1611080541599-8c6dbde6ed28?w=700&auto=format&fit=crop&q=80"
+              alt="Natural Serum Dropper"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=700&auto=format&fit=crop&q=80"
+              alt="Daily Skincare Routine"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=700&auto=format&fit=crop&q=80"
+              alt="Botanical Cream Jar"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <span class="section-tag">Customer Love</span>
+        <h2>What Our Customers Say</h2>
+
+        <div class="testimonial-container">
+          <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p>"My skin feels noticeably smoother and calmer after just a week."</p>
+            <h4>— Sarah M.</h4>
+          </div>
+
+          <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p>"Very lightweight texture and perfect for my daily morning routine."</p>
+            <h4>— Amelia R.</h4>
+          </div>
+
+          <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p>"Hands down the gentlest skincare line I have ever used."</p>
+            <h4>— Nina K.</h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter" id="newsletter">
+        <div class="newsletter-box">
+          <h2>Join Our Beauty Newsletter</h2>
+          <p>Get weekly skincare tips, routine guides, and 15% off your first order.</p>
+
+          <form class="newsletter-form" id="newsletterForm">
+            <input
+              type="email"
+              id="newsletterEmail"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+          <p class="form-feedback" id="newsletterFeedback"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Lumea Beauty. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const menuToggle = document.getElementById("menuToggle");
+      const navLinks = document.getElementById("navLinks");
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        menuToggle.classList.toggle("open");
+      });
+
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+          menuToggle.classList.remove("open");
+        });
+      });
+
+      let count = 0;
+      const cartCountEl = document.getElementById("cartCount");
+      document.querySelectorAll(".add-cart").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          count++;
+          cartCountEl.textContent = count;
+          const originalText = btn.textContent;
+          btn.textContent = "✓ Added";
+          btn.disabled = true;
+          setTimeout(() => {
+            btn.textContent = originalText;
+            btn.disabled = false;
+          }, 900);
+        });
+      });
+
+      const newsletterForm = document.getElementById("newsletterForm");
+      const newsletterFeedback = document.getElementById("newsletterFeedback");
+      newsletterForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const email = document.getElementById("newsletterEmail").value;
+        newsletterFeedback.textContent = `Thank you! Welcome tips have been sent to ${email}.`;
+        newsletterForm.reset();
+      });
+    </script>
+  </body>
+</html>
